@@ -3,6 +3,7 @@ import Cabecalho from "./componentes/cabecalho/cabecalho";
 import EscolhaDoEditor from "./componentes/EscolhaDoEditor/escolhaDoEditor";
 import FundoDaPagina from "./componentes/fundoDaPaigina/fundoDaPagina";
 import PublicacaoCodigo from "./componentes/publicacaoCodigo/publicacaoCodigo";
+
 import RedesSocias from "./componentes/redesSocias/redesSocias";
 
 function App() {
