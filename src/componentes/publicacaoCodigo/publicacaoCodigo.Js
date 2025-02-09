@@ -1,5 +1,5 @@
-import LinhaDecorativa from "../linhaDecorativa/linhaDecorativa";
 import "./publicacaoCodigo.css";
+import "./publicacaoCodigoResponsividade.css"
 
 export default function PublicacaoCodigo() {
   return (
@@ -25,7 +25,7 @@ export default function PublicacaoCodigo() {
             </div>
 
             <h5 className="continerPublicacoesTitulo">
-              Botões: 30 Opções Gratuitas de modelos incriveis que achei na
+              Botões: 30 Opções gratuitas de modelos incriveis que achei na
               internet
             </h5>
 
@@ -36,42 +36,65 @@ export default function PublicacaoCodigo() {
           </div>
 
           <div className="continerPublicacaoMenor">
-            <div className="continerPublicacaoMenorPostagem">
+            <div className="continerPublicacaoMenorPostagem comBorda">
               <div className="continerImagemPublicacaoMenor">
-                <img className="PubliacaoImagem" src="" alt="imagem"></img>
+                <img className="PubliacaoImagem" src="/imagens/publicacao/cards-modelos.webp" alt="imagem"></img>
               </div>
 
               <h5 className="continerPublicacoesTituloMenor">
-                Botões: 30 Opções Gratuitas de modelos incriveis que achei na
-                internet
+                Cards: 15 Opções gratuitas de modelos de cards que que uso no dia dia
               </h5>
 
               <p className="continerPublicacoesTextoMenor">
-                Se você procura por modelos de botões, confira essa excelente
-                lista com diversas opções para você usar em seus sites.
+              Seja para destacar informações, 
+              produtos ou conteúdos visuais, os cards são essenciais em interfaces modernas. 
+              Neste post, reuni 15 designs de cards encontrados pela web que são funcionais e cheios de estilo para inspirar seus projetos!
               </p>
             </div>
 
             <div className="continerPublicacaoMenorPostagem">
               <div className="continerImagemPublicacaoMenor">
-                <img className="PubliacaoImagem" src="" alt="imagem"></img>
+                <img className="PubliacaoImagem" src="/imagens/publicacao/carregando- publicacao.webp" alt="imagem"></img>
               </div>
 
               <h5 className="continerPublicacoesTituloMenor">
-                Botões: 30 Opções Gratuitas de modelos incriveis que achei na
-                internet
+              Animações de Carregamento: 12 Modelos Criativos que Encontrei na Web
               </h5>
 
               <p className="continerPublicacoesTextoMenor">
-                Se você procura por modelos de botões, confira essa excelente
-                lista com diversas opções para você usar em seus sites.
+              As animações de carregamento são essenciais para manter os usuários engajados enquanto esperam. 
+              Confira 12 modelos criativos, como círculos giratórios, 
+              barras animadas e outros designs inteligentes, que podem dar um toque especial aos seus projetos!
               </p>
             </div>
           </div>
 
-          <div className="continerPublicacaoMenor"></div>
+          <div className="continerPublicacaoMedia">
 
-          <div className="continerPublicacaoMedia"></div>
+            <h4 className="TituloAnúncios">Anúncios</h4>
+
+            <div className="continerTodosAnuncios">
+
+              <div className="ContinerAnuncios">
+
+
+              </div>
+
+              <div className="ContinerAnuncios">
+
+                  
+              </div>
+
+              <div className="ContinerAnuncios">
+
+                  
+              </div>
+
+            </div>
+
+
+
+          </div>
         </div>
       </section>
     </>
