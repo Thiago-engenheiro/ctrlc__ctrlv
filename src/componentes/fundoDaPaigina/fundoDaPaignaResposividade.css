@@ -2,10 +2,8 @@
 
     .continerConteudo {
 
-        width: 95%;
-        
-        
+        width: calc(95% - 40px);
+         
     }
       
-
 }
