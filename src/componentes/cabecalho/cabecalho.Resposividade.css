@@ -1,0 +1,104 @@
+@media (min-width: 500px) {
+
+    .cabecalho {
+
+        height: calc(120px - 80px);
+    
+    }
+
+    .logotipoImg {
+
+        width: 60px;
+    
+    }
+
+    .TituloPagina {
+
+        font-size: 20px;
+
+    }
+   
+}
+
+@media (min-width: 650px) {
+
+    .logotipoImg {
+
+        width: 70px;
+    
+    }
+
+    .TituloPagina {
+
+        font-size: 25px;
+
+    }
+   
+    
+}
+
+@media (min-width: 1000px) {
+
+   
+    .logotipoImg {
+
+        width: 80px;
+    
+    }
+
+    .TituloPagina {
+
+        font-size: 30px;
+
+    }
+
+    
+}
+
+
+@media (min-width: 1440px) {
+
+    .logotipoImg {
+
+        width: 100px;
+    
+    }
+
+    .TituloPagina {
+
+        font-size: 40px;
+
+    }
+   
+    
+}
+
+@media (min-width: 1600px) {
+
+
+    .TituloPagina {
+
+        font-size: 50px;
+
+    }
+   
+    
+}
+
+@media (min-width: 1800px) {
+
+
+    .TituloPagina {
+
+        font-size: 60px;
+
+    }
+
+    .navegacaoLinks {
+
+        display: flex;
+       
+    }
+      
+    
+}

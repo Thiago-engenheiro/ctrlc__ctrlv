@@ -1,0 +1,88 @@
+.escolhaDoEditor {
+  padding: 40px;
+  margin: 0px 0px 50px 0px;
+}
+
+.continerTituloEditor {
+  display: flex;
+  justify-content: center;
+}
+
+.TituloEditor {
+  font-size: 80px;
+  font-family: "Trap", sans-serif;
+  color: #ffffff;
+  padding: 20px 40px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  font-weight: 800;
+  
+}
+
+.ContinerTagPublicacao {
+  border-radius: 32px;
+  padding: 0.625rem 1.25rem;
+  box-shadow: 0px 4px 6px rgba(9, 19, 37, 0.5);
+  font-family: "Trap", sans-serif;
+  display: flex;
+  align-items: center;
+  position: relative;
+  gap: 10px;
+  background: #e7f1f1;
+ 
+}
+
+.continerPublicacaoEditor {
+  background: linear-gradient(#fafafa, #ebebeb);
+  box-shadow: 0 5px 15px 0 #00000026;
+  overflow: hidden;
+  padding: 40px;
+  border-radius: 0px 0px 16px 16px;
+  margin: 0px 0px;
+  position: relative;
+  
+}
+
+.continerPublicacaoEditor img {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.continerPublicacaoInformacao {
+
+  display: flex;
+  background: linear-gradient(#fafafa, #ebebeb);
+  border-radius: 16px 16px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  padding: 20px;
+  color: black;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+
+
+}
+
+.publicacaoInformacao {
+
+  font-family: 'Trap', sans-serif;
+  font-size: 20px;
+
+}
+
+.informacaoTitulo {
+
+  color: black;
+  font-family: 'Trap', sans-serif;
+  font-size: 20px;
+  
+}
+

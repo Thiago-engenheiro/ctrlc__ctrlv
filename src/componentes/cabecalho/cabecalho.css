@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Blogh'; /* Nome que você escolhe para a fonte */
+    src: url('/public/arquivos/Blogh.otf') format('opentype'); /* Caminho da fonte */
+    font-weight: normal; 
+    font-style: normal;  
+}
+
+@font-face {
+    font-family: 'Manifest'; /* Nome que você escolhe para a fonte */
+    src: url('/public/arquivos/MANIFESTO.ttf') format('opentype'); /* Caminho da fonte */
+    font-weight: normal; 
+    font-style: normal;  
+}
+
+@font-face {
+    font-family: 'inverse'; /* Nome que você escolhe para a fonte */
+    src: url('/public/arquivos/inverse.ttf') format('opentype'); /* Caminho da fonte */
+    font-weight: normal; 
+    font-style: normal;  
+}
+
+@font-face {
+    font-family: 'Trap'; /* Nome que você escolhe para a fonte */
+    src: url('/public/arquivos/Trap-SemiBold.otf') format('opentype'); /* Caminho da fonte */
+    font-weight: normal; 
+    font-style: normal;  
+}
+
+.cabecalho {
+
+    position: fixed;
+    width: calc(100% - 80px);
+    height: calc(80px - 80px);
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+    backdrop-filter: blur(30px);
+    background-color: rgba(65, 65, 65, 0.308);
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    border: 1px solid black;
+    color: white;
+    top: 0;
+    z-index: 3; 
+    
+    
+   
+}
+
+.cabecalho  {
+
+    flex: 1;
+   
+}
+
+.cabecalho> * {
+
+    flex: 1;
+    text-align: center;
+   
+}
+
+.cabecalho > :nth-child(1) {
+ 
+    text-align: start;
+}
+
+.logotipoImg {
+
+    width: 50px;
+
+}
+
+.navegacaoLinks {
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 60px;
+    font-family: 'Trap', sans-serif;
+    font-size: 20px;
+    display: none;
+
+}
+
+.TituloPagina {
+
+    font-size: 15px;
+    font-family: 'inverse', sans-serif;
+
+}
+
+mark{
+
+    background: none;
+    color: white;
+
+}
