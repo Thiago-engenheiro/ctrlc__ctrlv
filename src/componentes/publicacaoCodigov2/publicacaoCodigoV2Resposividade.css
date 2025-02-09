@@ -1,56 +1,42 @@
-
-
-
 @media (max-width: 1020px) {
-   
   .LinkPublicacao {
-
     font-size: 40px;
-    
   }
 
   .iconePubliacao {
-
     width: 30px;
-
   }
-  
 }
 
-  @media (max-width: 1152px) {
-
-    .continerPublicacaoMaior {
-      width: 100%;
-      border-bottom: 2px solid #3333;
-      border-right: 0px solid #3333;
-    }
-  
-    .continerPublicacaoMenor {
-      width: 100%;
-      border-right: 0px solid #3333;
-      display: flex;
-      flex-direction: row;
-      margin: 20px 0px 0px 0px;
-      border-bottom: 2px solid #3333;
-    }
-  
-    .comBorda {
-      border-right: 2px solid #3333;
-    }
+@media (max-width: 1152px) {
+  .continerPublicacaoMaior {
+    width: 100%;
+    border-bottom: 2px solid #3333;
+    border-right: 0px solid #3333;
   }
 
-  
-@media (max-width: 800px) {
-
   .continerPublicacaoMenor {
+    width: 100%;
+    border-right: 0px solid #3333;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px 0px 0px;
+    border-bottom: 2px solid #3333;
+  }
 
+  .comBorda {
+    border-right: 2px solid #3333;
+  }
+}
+
+@media (max-width: 800px) {
+  .continerPublicacaoMenor {
     width: 100%;
     border-top: 0px solid #3333;
     border-bottom: 2px solid #3333;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    
   }
 
   .comBorda {
@@ -59,63 +45,52 @@
   }
 
   .LinkPublicacao {
-
     font-size: 30px;
-    
   }
 
   .iconePubliacao {
-
     width: 20px;
-
   }
-  
-
 }
 
 @media (max-width: 600px) {
-
   .LinkPublicacao {
-
     font-size: 20px;
     display: flex;
     flex-direction: column;
-    
   }
 
   .iconePubliacao {
-
     width: 15px;
-
   }
 
   .continerImagemPublicacaoMenor {
-
     height: 175px;
     width: calc(100% + 40px);
     margin: 0px 0px 0px -20px;
-   
+  }
+
+  .continerImagemPublicacaoMaior {
+    background: linear-gradient(#fafafa, #ebebeb);
+    box-shadow: 0 5px 15px 0 #00000026;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 16px;
+    width: calc(100% + 10px);
+    height: auto;
+    border-left: 8px solid #4a9300;
+    margin: 0px 0px 0px -20px;
   }
 
   .continerPublicacaoMenorPostagem {
-
     padding: 5px 0px;
-  
   }
-
 }
 
 @media (max-width: 400px) {
-
-
   .continerImagemPublicacaoMenor {
-
     height: 175px;
     width: calc(100% + 60px);
     margin: 0px 0px 0px -30px;
-   
-   
   }
-
 }
-  
