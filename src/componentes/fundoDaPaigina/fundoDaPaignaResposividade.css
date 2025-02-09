@@ -3,7 +3,7 @@
     .continerConteudo {
 
         width: calc(95% - 40px);
-         
+        padding: 15px;
     }
       
 }

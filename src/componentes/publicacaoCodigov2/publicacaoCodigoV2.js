@@ -68,34 +68,19 @@ export default function PublicacaoCodigoV2() {
                 </p>
               </div>
             </div>
-  
-            <div className="continerPublicacaoMedia">
-  
-              <h4 className="TituloAnúncios">Anúncios</h4>
-  
-              <div className="continerTodosAnuncios">
-  
-                <div className="ContinerAnuncios">
-  
-  
-                </div>
-  
-                <div className="ContinerAnuncios">
-  
-                    
-                </div>
-  
-                <div className="ContinerAnuncios">
-  
-                    
-                </div>
-  
-              </div>
-  
-  
-  
+
+            <div className="continerPublicacaoMenorPostagem">
+
+            <h5 className="continerPublicacoesTituloMenor">
+
+                Mais postagens no futuro !
+
+              </h5>
+
             </div>
-          </div>
+
+            </div>
+    
         </section>
       </>
     );

@@ -1,3 +1,4 @@
+import Anuncios from "./componentes/anuncios/anuncios";
 import Apresentacao from "./componentes/apresentacao/apresentacao";
 import Cabecalho from "./componentes/cabecalho/cabecalho";
 import EscolhaDoEditor from "./componentes/EscolhaDoEditor/escolhaDoEditor";
@@ -16,6 +17,7 @@ function App() {
 
       <div className="continerConteudo">
         <EscolhaDoEditor></EscolhaDoEditor>
+        <Anuncios></Anuncios>
         <PublicacaoCodigoV2></PublicacaoCodigoV2>
       </div>
     </div>
