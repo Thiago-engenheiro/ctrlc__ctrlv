@@ -2,9 +2,8 @@ import Apresentacao from "./componentes/apresentacao/apresentacao";
 import Cabecalho from "./componentes/cabecalho/cabecalho";
 import EscolhaDoEditor from "./componentes/EscolhaDoEditor/escolhaDoEditor";
 import FundoDaPagina from "./componentes/fundoDaPaigina/fundoDaPagina";
-import PublicacaoCodigo from "./componentes/publicacaoCodigo/publicacaoCodigo.js";
+import PublicacaoCodigo from "./componentes/publicacaoCodigo/publicacaoCodigo.Js";
 import RedesSocias from "./componentes/redesSocias/redesSocias";
-
 
 function App() {
   return (
@@ -17,10 +16,7 @@ function App() {
       <div className="continerConteudo">
         <EscolhaDoEditor></EscolhaDoEditor>
         <PublicacaoCodigo></PublicacaoCodigo>
-        
       </div>
-
-    
     </div>
   );
 }
