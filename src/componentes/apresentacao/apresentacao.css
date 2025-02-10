@@ -159,18 +159,35 @@
   width: 20px;
 }
 
+.codigo {
+  background: greenyellow;
+}
+
 .codigo:hover {
-  background: #eaf1e3;
+  background: rgb(112, 186, 1);
+}
+
+.cor {
+  background: plum;
 }
 
 .cor:hover {
-  background: #eee8f6;
+  background: rgb(173, 114, 173);
+}
+
+.fontes {
+  background: yellow;
 }
 
 .fontes:hover {
-  background: #f8f2de;
+  background: rgb(210, 210, 0);
 }
 
+.sites {
+  background: aqua;
+}
+
+
 .sites:hover {
-  background: #e7f1f1;
+  background: rgb(1, 191, 191);
 }

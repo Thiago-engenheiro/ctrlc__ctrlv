@@ -10,13 +10,9 @@ export default function FundoDaPagina () {
     
     <>
         <div className="spline-container">
-            
-            
-           
-            <Spline scene="https://prod.spline.design/TJ3g181MJttXhRgB/scene.splinecode" />
-        
-    
-            
+                
+            <Spline scene="https://prod.spline.design/TJ3g181MJttXhRgB/scene.splinecode"/>
+               
         </div>
     
     </>
