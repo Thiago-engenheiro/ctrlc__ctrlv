@@ -1,4 +1,3 @@
-import Anuncios from "./componentes/anuncios/anuncios";
 import Apresentacao from "./componentes/apresentacao/apresentacao";
 import Cabecalho from "./componentes/cabecalho/cabecalho";
 import CoresPublicacao from "./componentes/CoresPublicacao/coresPublicacao";
@@ -13,7 +12,6 @@ import Rodape from "./componentes/rodape/rodape";
 function App() {
   return (
     <div className="App">
-
       <FundoDaPagina></FundoDaPagina>
       <Cabecalho></Cabecalho>
       <Apresentacao></Apresentacao>
@@ -21,15 +19,12 @@ function App() {
 
       <div className="continerConteudo">
         <EscolhaDoEditor></EscolhaDoEditor>
-        <Anuncios></Anuncios>
         <PublicacaoCodigoV2></PublicacaoCodigoV2>
         <FontesPublicacao></FontesPublicacao>
         <CoresPublicacao></CoresPublicacao>
-        <Anuncios></Anuncios>
       </div>
 
       <Rodape></Rodape>
-
     </div>
   );
 }
