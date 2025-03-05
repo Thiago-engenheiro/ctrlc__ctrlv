@@ -1,0 +1,92 @@
+.Rodape {
+
+    display: flex;
+    padding: 40px 120px;
+    align-items: center;
+    backdrop-filter: blur(50px);
+    background-color: rgba(0, 0, 0, 0.308);
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    border: 1px solid black;
+    color: white;
+
+}
+
+.borda {
+
+    border-right: 2px solid rgb(255, 255, 255);
+    border-left: 2px solid rgb(255, 255, 255);
+
+}
+
+.continerDoRodape {
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    padding: 0px 20px;
+    width: calc(100% - 40px);
+     
+}
+
+.centro {
+
+    align-items: center;
+
+}
+
+.tituloRodape {
+
+    font-size: 50px;
+    font-family: "", sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    font-weight: bold;
+   
+}
+
+.textoRodape {
+
+    font-size: 20px;
+    font-family: "", sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    font-weight: bold;
+
+}
+
+.linkRodape {
+
+    font-size: 20px;
+    font-family: "", sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    font-weight: bold;
+    color: violet;
+
+}
+
+.linkRodape:hover {
+
+    color: rgb(192, 93, 192);
+
+}
+
+.logotipoImgRodape {
+
+    width: 135px;
+
+}
+
+.texto {
+
+    font-size: 15px;
+    font-family: "", sans-serif;
+    color: #ffffff94;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    font-weight: bold;
+    
+
+}

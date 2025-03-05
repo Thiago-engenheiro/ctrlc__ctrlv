@@ -11,7 +11,7 @@ export default function Cabecalho () {
             <section className='cabecalho'>
 
                 <div className='continerLogoImg'>
-                    <img className='logotipoImg' src='/imagens/Eu/logotipo.png' alt='Logotipo'></img>
+                    <img className='logotipoImg' src='/imagens/Eu/LOGO.png' alt='Logotipo'></img>
                 </div>
 
                 <div className='ContinerLogoPagina'>
@@ -24,25 +24,25 @@ export default function Cabecalho () {
 
                         <li>
 
-                            Codigo
+                            <a href='a'>Codigo</a>
 
                         </li>
 
                         <li>
 
-                            Sites
+                            <a href='a'>Sites</a>
 
                         </li>
 
                         <li>
 
-                            Fontes
+                            <a href='a'>Fontes</a>
 
                         </li>
 
                         <li>
 
-                            Pessoal
+                            <a href='a'>Pessoal</a>
 
                         </li>
 

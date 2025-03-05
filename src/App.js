@@ -8,10 +8,12 @@ import FundoDaPagina from "./componentes/fundoDaPaigina/fundoDaPagina";
 import PublicacaoCodigoV2 from "./componentes/publicacaoCodigov2/publicacaoCodigoV2";
 
 import RedesSocias from "./componentes/redesSocias/redesSocias";
+import Rodape from "./componentes/rodape/rodape";
 
 function App() {
   return (
     <div className="App">
+
       <FundoDaPagina></FundoDaPagina>
       <Cabecalho></Cabecalho>
       <Apresentacao></Apresentacao>
@@ -25,6 +27,9 @@ function App() {
         <CoresPublicacao></CoresPublicacao>
         <Anuncios></Anuncios>
       </div>
+
+      <Rodape></Rodape>
+
     </div>
   );
 }

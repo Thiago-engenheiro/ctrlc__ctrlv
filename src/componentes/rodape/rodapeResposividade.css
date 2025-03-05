@@ -1,0 +1,58 @@
+@media (max-width: 2265px) {
+  .tituloRodape {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 1920px) {
+  .tituloRodape {
+    font-size: 30px;
+  }
+
+  .textoRodape {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1350px) {
+  .Rodape {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .borda {
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+  }
+
+  .continerDoRodape {
+    align-items: center;
+    padding: 20px 0px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .Rodape {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 100px 165px 100px;
+  }
+}
+
+@media (max-width: 500px) {
+  .Rodape {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 50px 40px 50px;
+  }
+
+  .logotipoImgRodape {
+    width: 75px;
+  }
+}
