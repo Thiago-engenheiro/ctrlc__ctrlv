@@ -11,11 +11,11 @@ export default function Rodape () {
 
                 <div className='continerDoRodape'>
 
-                    <h3 className='tituloRodape'>O que é Ctrl+C e Ctrl+V?</h3>
+                    <h3 className='tituloRodape'>O que é LinkHub?</h3>
 
                     <p className='textoRodape'>
 
-                        Um site em formato de blog que funciona como um repositório de links úteis que utilizo no meu dia a dia. 
+                        Um site que funciona como um repositório de links úteis que utilizo no meu dia a dia. 
                         A ideia surgiu da dificuldade de armazenar links em vários lugares e nunca encontrá-los quando preciso, 
                         seja pela falta de organização ou pela grande quantidade de conteúdo. Decidi unir o útil ao agradável e criar um site que me ajude a organizar esses links e compartilhá-los com outras pessoas. 
                         Além disso, é uma ótima oportunidade para aprimorar meus conhecimentos em desenvolvimento
@@ -34,7 +34,7 @@ export default function Rodape () {
 
                 <div className='continerDoRodape final'>
 
-                    <p className='texto'>Versão do site: 0.5V - 05/03/2025</p>
+                    <p className='texto'>Versão do site: 0.6V - 05/03/2025</p>
 
 
 

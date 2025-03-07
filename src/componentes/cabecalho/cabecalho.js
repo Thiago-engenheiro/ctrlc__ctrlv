@@ -1,4 +1,3 @@
-import MenuHambuguer from '../menuHambuguer/menuHambuguer'
 import './cabecalho.css'
 import './cabecalho.Resposividade.css'
 
@@ -15,42 +14,44 @@ export default function Cabecalho () {
                 </div>
 
                 <div className='ContinerLogoPagina'>
-                    <h1 className='TituloPagina'> Control C // Control V</h1>
+                    <h1 className='TituloPagina'> Link Hub</h1>
                 </div>
 
                 <nav className='ContinerNavegacaoLink'>
 
-                    <ul className='navegacaoLinks'>
+                    {/*  
+                        <ul className='navegacaoLinks'>
 
-                        <li>
+                            <li>
 
-                            <a href='a'>Codigo</a>
+                                <a href='a'>Codigo</a>
 
-                        </li>
+                            </li>
 
-                        <li>
+                            <li>
 
-                            <a href='a'>Sites</a>
+                                <a href='a'>Sites</a>
 
-                        </li>
+                            </li>
 
-                        <li>
+                            <li>
 
-                            <a href='a'>Fontes</a>
+                                <a href='a'>Fontes</a>
 
-                        </li>
+                            </li>
 
-                        <li>
+                            <li>
 
-                            <a href='a'>Pessoal</a>
+                                <a href='a'>Pessoal</a>
 
-                        </li>
-
-                    </ul>
+                            </li>
+                    
+                        </ul>
+                    */}
 
                 </nav>
 
-                <MenuHambuguer></MenuHambuguer>
+                
 
             </section>
         
