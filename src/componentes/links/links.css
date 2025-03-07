@@ -36,6 +36,7 @@
     display: flex;
     gap: 40px;
     align-items: end;
+    flex-wrap: wrap;
 
 }
 
@@ -43,6 +44,7 @@
 
     display: flex;
     flex-direction: column;
+  
 
 }
 
@@ -61,7 +63,6 @@
 
     font-size: 15px;
     font-family: "Trap", sans-serif;
-    color: #00000094;
     letter-spacing: 2px;
     line-height: 1.2;
     font-weight: bold;
@@ -79,7 +80,7 @@
     width: 250px;
     height: 50px;
     border-radius: 6px;
-
+    position: relative;
 }
 
 .botaoFiltro:disabled {
@@ -115,6 +116,13 @@
 .setaImg {
 
     width: 15px;
+    transition: transform 0.3s ease;
+
+}
+
+.setaImg.rotated {
+
+    transform: rotate(180deg); 
 
 }
 
@@ -128,7 +136,7 @@
 
     display: flex;
     gap: 50px;
-    margin: 50px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
     flex-wrap: wrap;
 
 }
