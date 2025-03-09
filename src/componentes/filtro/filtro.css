@@ -1,0 +1,161 @@
+.continerFiltro {
+
+    padding: 40px;
+    background: linear-gradient(#fafafa, #ebebeb);
+    border-radius: 16px;
+    color: black;
+
+}
+
+.filtroTitulo {
+
+    font-size: 50px;
+    font-family: "Trap", sans-serif;
+    color: #00000094;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    font-weight: bold;
+    margin: 0px 0px 50px 0px;
+
+}
+
+.todosOsFiltros {
+
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+
+}
+
+.filtro {
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.continerInformacaoFiltro {
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+
+}
+
+.imagemFiltro {
+
+    width: 20px;
+
+}
+
+.tituloFiltro {
+
+    font-size: 20px;
+    font-family: "Trap", sans-serif;
+    color: #00000094;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    font-weight: bold;
+   
+}
+
+.inputFiltro {
+
+    font-size: 15px;
+    font-family: "Trap", sans-serif;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    gap: 10px;
+    background-image: linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
+    border: 1px solid #8F9092;
+    transition: all 0.2s ease;
+    color: #606060;
+    text-shadow: 0 1px #fff;
+    outline: none;
+    justify-content: space-between;
+    width: 250px;
+    height: 50px;
+    border-radius: 6px;
+    position: relative;
+   
+}
+
+.verdeFundo {
+
+    background-image: linear-gradient(to top, #bfdbc9 0%, #bfdbc9 80%, #bfdbc9 100%);
+    text-shadow: 0 0px #fff;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+     
+}
+
+.inputFiltro.verdeFundo:hover, .inputFiltro.vermelhoFundo:hover {
+
+    box-shadow: inset 2px 5px 15px rgba(0, 0, 0, 0.5);
+     
+}
+
+.inputFiltro.verdeFundo:focus, .inputFiltro.vermelhoFundo:focus  {
+
+    box-shadow: inset 2px 5px 15px rgba(0, 0, 0, 0.7);
+    outline: none;
+     
+}
+
+.inputFiltro.verdeFundo:active, .inputFiltro.vermelhoFundo:active {
+
+    box-shadow: inset 2px 5px 15px rgba(0, 0, 0, 0.8);
+     
+}
+
+.vermelhoFundo {
+
+    background-image: linear-gradient(to top, #dbbfc4 0%, #dbbfc4 80%, #dbbfc4 100%);
+    text-shadow: 0 0px #fff;
+    box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+  
+}
+
+.inputFiltro:hover {
+
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 3px 3px #CECFD1;
+}
+  
+.inputFiltro:active {
+
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+}
+  
+.inputFiltro:focus {
+
+    box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
+}
+
+.inputFiltro:disabled {
+    background: #E0E0E0;
+    color: #A0A0A0;
+    border-color: #C0C0C0;
+    cursor: not-allowed;
+    text-shadow: none;
+    opacity: 0.6;
+}
+
+.inputFiltro:disabled .iconeImg, .setaImg {
+
+    opacity: 0.6;
+
+}
+
+.linhaDecorativa {
+
+    width: 100%;
+    height: 5px;
+    background: rgb(190, 190, 190);
+    margin: 50px 0px;
+
+}

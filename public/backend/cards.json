@@ -1,0 +1,31 @@
+{
+
+    "cards": [
+
+        {
+            
+            "id": 1,
+            "titulo": "Botão seta animado",
+            "descricao": "Botão com seta animada ao passa o mause.",
+            "url": "https://uiverse.io/adamgiebl/smart-moth-68",
+            "imagem": "/imagens/imagensParaLinks/codigo/botoes/botaoComSetaAnimado.mp4",
+            "categoria": "Codigo",
+            "Subcategoria": "Botao"
+
+        },
+
+        {
+
+            "id": 2,
+            "titulo": "Bliblioteca - /uiverse.io",
+            "descricao": "Biblioteca de UI de código aberto, composta por elementos de interface de usuário desenvolvidos pela comunidade.",
+            "url": "https://uiverse.io",
+            "imagem": "/imagens/imagensParaLinks/codigo/botoes/uiUniverse.mp4",
+            "categoria": "sites",
+            "Subcategoria": "Bliblioteca"
+
+        }
+        
+    ]
+
+}

@@ -21,7 +21,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #bfdbc9;
+  background-color: #dbbfc4;
   box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
   transition: 0.4s;
   border-radius: 5px;
@@ -41,9 +41,10 @@
 
 input:checked + .slider {
   background-color: #dbbfc4;
+  background-color: #bfdbc9;
   box-shadow: inset 2px 5px 10px rgb(0, 0, 0, 0.3);
 }
 
 input:checked + .slider:before {
-  transform: translateX(225px) rotate(360deg);
+  transform: translateX(230px) rotate(360deg);
 }
