@@ -191,6 +191,12 @@
   background: aqua;
 }
 
+.site:hover {
+  background: rgb(1, 191, 191);
+}
+
 .sites:hover {
   background: rgb(1, 191, 191);
 }
+
+

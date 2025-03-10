@@ -108,6 +108,42 @@
             "categoria": "site",
             "subcategoria": "design"
 
+        },
+
+        {
+            
+            "id": 10,
+            "titulo": "Plataforma de design - /Unsplash",
+            "descricao": "Banco de imagens gratuitas de alta qualidade, muito usadas para melhorar o design visual de sites e projetos gráficos.",
+            "url": "https://unsplash.com/pt-br",
+            "imagem": "",
+            "categoria": "site",
+            "subcategoria": "design"
+
+        },
+
+        {
+            
+            "id": 11,
+            "titulo": "Bliblioteca - /lottiefiles",
+            "descricao": "Uma plataforma para encontrar animações em formato Lottie que podem ser facilmente integradas a websites ou aplicativos móveis.",
+            "url": "https://lottiefiles.com",
+            "imagem": "/imagens/imagensParaLinks/sites/bibliotecas/lottiefiles.mp4",
+            "categoria": "site",
+             "subcategoria": "biblioteca"
+
+        },
+
+        {
+            
+            "id": 12,
+            "titulo": "Bliblioteca - /spline",
+            "descricao": "é uma ferramenta online de design 3D interativo. Ele permite que os usuários criem, editem e compartilhem modelos 3D diretamente no navegador, sem precisar de um software complexo.",
+            "url": "https://spline.design",
+            "imagem": "/imagens/imagensParaLinks/sites/bibliotecas/spline.mp4",
+            "categoria": "site",
+             "subcategoria": "biblioteca"
+
         }
 
 
