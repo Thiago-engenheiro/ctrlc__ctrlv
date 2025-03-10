@@ -20,19 +20,31 @@ const Card = ({ id, titulo, descricao, url, imagem, categoria, Subcategoria }) =
     };
 
     return (
+       
         <div className="card">
-            <div className="Continerimg">
-                <video 
-                    className="img" 
-                    src={imagem} 
-                    type="video/mp4" 
-                    autoPlay 
-                    loop 
-                    muted 
-                    playsInline
-                    alt={titulo}
-                ></video>
-            </div>
+    <div className="Continerimg">
+        {imagem.endsWith('.mp4') || imagem.endsWith('.webm') || imagem.endsWith('.ogg') ? (
+            
+            <video 
+                className="img" 
+                src={imagem} 
+                type="video/mp4" 
+                autoPlay 
+                loop 
+                muted 
+                playsInline
+                alt={titulo}
+            ></video>
+        ) : (
+           
+            <img 
+                className="img" 
+                src={imagem} 
+                alt={titulo}
+            />
+        )}
+
+        </div>
 
             <div className={`containerIconeImg ${categoria.toLowerCase()}`}> 
                 <img

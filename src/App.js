@@ -1,6 +1,5 @@
 import Apresentacao from "./componentes/apresentacao/apresentacao";
 import Cabecalho from "./componentes/cabecalho/cabecalho";
-import Filtro from "./componentes/filtro/filtro";
 import FundoDaPagina from "./componentes/fundoDaPaigina/fundoDaPagina";
 import Links from "./componentes/links/links";
 
@@ -18,7 +17,7 @@ function App() {
 
       <div className="continerConteudo">
 
-        <Filtro></Filtro>
+  
         <Links></Links>
         
       </div>

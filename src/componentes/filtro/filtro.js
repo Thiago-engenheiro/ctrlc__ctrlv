@@ -1,6 +1,8 @@
 import "./filtro.css";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import FiltrosSwitche from "./filtrosSwitche";
+import './filtroResponsividade.css'
+
 
 const options = [
   { value: "todos", label: "Todos" },
@@ -41,7 +43,9 @@ const SelectInput = ({
   disabled,
 }) => {
   const handleChange = (e) => {
+
     onChange(e.target.value);
+
   };
 
   let selectClass = "inputFiltro";
@@ -77,10 +81,11 @@ const SelectInput = ({
   );
 };
 
-export default function Filtro() {
+export default function Filtro({ onValoresAtualizados = () => {} }) { 
+
   const [estadoTodosOsLinks, setEstadoTodosOsLinks] = useState(true);
-  const [estadoTodosOsLinksPessoal, setEstadoTodosOsLinksPessoal] =
-    useState(false);
+  const [estadoTodosOsLinksPessoal, setEstadoTodosOsLinksPessoal] = useState(false);
+
   const [siteValue, setSiteValue] = useState("todos");
   const [codigoValue, setCodigoValue] = useState("todos");
 
@@ -102,6 +107,26 @@ export default function Filtro() {
     setEntretenimentoValue(newValue);
     setYoutubeValue(newValue);
   };
+
+  useEffect(() => {
+
+    const valores = {
+      site: siteValue,
+      codigo: codigoValue,
+      entretenimento: entretenimentoValue,
+      youtube: YoutubeValue,
+  };
+
+  console.log("Valores atualizados no Filtro:", valores);
+
+  if (typeof onValoresAtualizados === "function") {
+    onValoresAtualizados(valores); 
+  } else {
+    console.error("onValoresAtualizados não é uma função!");
+  }
+  }, [siteValue, codigoValue, entretenimentoValue, YoutubeValue, onValoresAtualizados])
+
+  
 
   return (
     <>

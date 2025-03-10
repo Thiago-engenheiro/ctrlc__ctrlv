@@ -1,8 +1,15 @@
 import { useState, useEffect } from "react";
-import Card from '../card/card'; 
+import Card from "../card/card"; 
+import Filtro from "../filtro/filtro";
 
 const Links = () => {
     const [dadosCards, setDadosCards] = useState([]); 
+    const [valoresDosFiltros, setValoresDosFiltros] = useState({
+        site: "todos",
+        codigo: "todos",
+        entretenimento: "todos",
+        youtube: "todos"
+    });
 
     useEffect(() => {
         fetch("/backend/cards.json") 
@@ -11,13 +18,40 @@ const Links = () => {
             .catch((error) => console.error("Erro ao carregar o JSON:", error));
     }, []); 
 
+    // Função para filtrar os cards
+    const filtrarCards = () => {
+        return dadosCards.filter((card) => {
+            const { site, codigo, entretenimento, youtube } = valoresDosFiltros;
+
+            console.log ()
+
+            // Filtrando pela categoria primeiro
+            if (card.categoria === "sites" && (site === "todos" || card.subcategoria === site)) {
+                return true;
+            }
+            if (card.categoria === "codigo" && (codigo === "todos" || card.subcategoria === codigo)) {
+                return true;
+            }
+            if (card.categoria === "entretenimento" && (entretenimento === "todos" || card.subcategoria === entretenimento)) {
+                return true;
+            }
+            if (card.categoria === "youtube" && (youtube === "todos" || card.subcategoria === youtube)) {
+                return true;
+            }
+
+            return false;
+        });
+    };
+
     return (
         <>
             <h3 className="tituloFiltro2">Links</h3>
 
-            <section className='links'>
-                {dadosCards.map((card) => (
-                    <Card key={card.id} {...card} /> 
+            <Filtro onValoresAtualizados={setValoresDosFiltros}/>
+
+            <section className="links">
+                {filtrarCards().map((card) => (
+                    <Card key={card.id} {...card} />
                 ))}
             </section>
         </>

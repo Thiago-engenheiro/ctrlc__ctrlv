@@ -1,0 +1,17 @@
+@media (max-width: 400px) {
+  .filtroTitulo {
+    font-size: 30px;
+  }
+
+  .inputFiltro {
+    width: 200px;
+  }
+
+  .switch {
+    width: 200px;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(180px) rotate(360deg);
+  }
+}
