@@ -5,7 +5,7 @@
         {
             
             "id": 1,
-            "titulo": "Botão seta animado",
+            "titulo": "Botão com uma seta animada",
             "descricao": "Botão com seta animada ao passa o mause.",
             "url": "https://uiverse.io/adamgiebl/smart-moth-68",
             "imagem": "/imagens/imagensParaLinks/codigo/botoes/botaoComSetaAnimado.mp4",
@@ -18,10 +18,10 @@
 
             "id": 2,
             "titulo": "Bliblioteca - /uiverse.io",
-            "descricao": "Biblioteca de UI de código aberto, composta por elementos de interface de usuário desenvolvidos pela comunidade.",
+            "descricao": "Plataforma de código aberto com elementos de interface de usuário desenvolvidos pela comunidade, oferecendo componentes prontos para facilitar o design de interfaces.",
             "url": "https://uiverse.io",
             "imagem": "/imagens/imagensParaLinks/sites/bibliotecas/uiUniverse.mp4",
-            "categoria": "sites",
+            "categoria": "site",
             "subcategoria": "biblioteca"
 
         },
@@ -30,73 +30,88 @@
             
             "id": 3,
             "titulo": "Bliblioteca - /codepen",
-            "descricao": "Biblioteca de UI de código aberto, composta por elementos de interface de usuário desenvolvidos pela comunidade.",
+            "descricao": "Plataforma de desenvolvedores com uma seção de Trending, onde você encontra componentes de UI compartilhados pela comunidade, constantemente atualizados e melhorados.",
             "url": "https://codepen.io/trending",
             "imagem": "/imagens/imagensParaLinks/sites/bibliotecas/codePen.gif",
-            "categoria": "sites",
+            "categoria": "site",
             "subcategoria": "biblioteca"
 
         },
 
         {
             
-            "id": 3,
-            "titulo": "Bliblioteca - /codepen",
-            "descricao": "Biblioteca de UI de código aberto, composta por elementos de interface de usuário desenvolvidos pela comunidade.",
-            "url": "https://codepen.io/trending",
-            "imagem": "/imagens/imagensParaLinks/sites/bibliotecas/codePen.gif",
-            "categoria": "sites",
-            "subcategoria": "biblioteca"
+            "id": 4,
+            "titulo": "Plataforma de design - /Dribbble",
+            "descricao": "Plataforma de designers, ideal para encontrar inspirações de UI/UX e design gráfico. É um ótimo lugar para ver trabalhos criativos e compartilhar seu próprio portfólio.",
+            "url": "https://dribbble.com",
+            "imagem": "/imagens/imagensParaLinks/sites/desing/Dribbble.mp4",
+            "categoria": "site",
+            "subcategoria": "design"
 
         },
 
         {
             
-            "id": 3,
-            "titulo": "Bliblioteca - /codepen",
-            "descricao": "Biblioteca de UI de código aberto, composta por elementos de interface de usuário desenvolvidos pela comunidade.",
-            "url": "https://codepen.io/trending",
-            "imagem": "/imagens/imagensParaLinks/sites/bibliotecas/codePen.gif",
-            "categoria": "sites",
-            "subcategoria": "biblioteca"
+            "id": 5,
+            "titulo": "Plataforma de design - /Figma",
+            "descricao": "Uma ferramenta de design colaborativo em tempo real, amplamente usada para criar protótipos e design de interfaces. É gratuita para uso individual e um ótimo lugar para aprender design.",
+            "url": "https://www.figma.com/pt-br/",
+            "imagem": "/imagens/imagensParaLinks/sites/desing/figma.mp4",
+            "categoria": "site",
+            "subcategoria": "design"
 
         },
 
         {
             
-            "id": 3,
-            "titulo": "Bliblioteca - /codepen",
-            "descricao": "Biblioteca de UI de código aberto, composta por elementos de interface de usuário desenvolvidos pela comunidade.",
-            "url": "https://codepen.io/trending",
-            "imagem": "/imagens/imagensParaLinks/sites/bibliotecas/codePen.gif",
-            "categoria": "sites",
-            "subcategoria": "biblioteca"
+            "id": 6,
+            "titulo": "Plataforma de design - /Canva",
+            "descricao": "Plataforma fácil de usar para criar gráficos e designs, ideal para quem não é designer profissional mas precisa criar materiais visuais rápidos.",
+            "url": "https://www.canva.com",
+            "imagem": "/imagens/imagensParaLinks/sites/desing/Canva.mp4",
+            "categoria": "site",
+            "subcategoria": "design"
 
         },
 
         {
             
-            "id": 3,
-            "titulo": "Bliblioteca - /codepen",
-            "descricao": "Biblioteca de UI de código aberto, composta por elementos de interface de usuário desenvolvidos pela comunidade.",
-            "url": "https://codepen.io/trending",
-            "imagem": "/imagens/imagensParaLinks/sites/bibliotecas/codePen.gif",
-            "categoria": "sites",
-            "subcategoria": "biblioteca"
+            "id": 7,
+            "titulo": "Website de tutoriais - /CSS-Tricks",
+            "descricao": "Um site dedicado a tutoriais e dicas de CSS, HTML e JavaScript. Ideal para desenvolvedores front-end que querem melhorar suas habilidades com design e técnicas de desenvolvimento.",
+            "url": "https://css-tricks.com",
+            "imagem": "/imagens/imagensParaLinks/sites/aprendizado/css-tricks.png",
+            "categoria": "site",
+            "subcategoria": "aprendizado"
 
         },
 
         {
             
-            "id": 3,
-            "titulo": "Bliblioteca - /codepen",
-            "descricao": "Biblioteca de UI de código aberto, composta por elementos de interface de usuário desenvolvidos pela comunidade.",
-            "url": "https://codepen.io/trending",
-            "imagem": "/imagens/imagensParaLinks/sites/bibliotecas/codePen.gif",
-            "categoria": "sites",
-            "subcategoria": "biblioteca"
+            "id": 8,
+            "titulo": "Website de tutoriais - /Frontend Mentor",
+            "descricao": "Um site onde você pode melhorar suas habilidades em front-end resolvendo desafios práticos de design e código, com designs prontos para implementar.",
+            "url": "https://www.frontendmentor.io",
+            "imagem": "/imagens/imagensParaLinks/sites/aprendizado/frontendmentor.png",
+            "categoria": "site",
+            "subcategoria": "aprendizado"
+
+        },
+
+        {
+            
+            "id": 9,
+            "titulo": "Plataforma de design - /Coolors",
+            "descricao": "Ferramenta para criar paletas de cores. Útil para quem está começando a trabalhar com design e quer criar combinações de cores harmônicas.",
+            "url": "https://coolors.co",
+            "imagem": "/imagens/imagensParaLinks/sites/desing/Coolors.mp4",
+            "categoria": "site",
+            "subcategoria": "design"
 
         }
+
+
+       
 
 
         

@@ -25,8 +25,7 @@ const Links = () => {
 
             console.log ()
 
-            // Filtrando pela categoria primeiro
-            if (card.categoria === "sites" && (site === "todos" || card.subcategoria === site)) {
+            if (card.categoria === "site" && (site === "todos" || card.subcategoria === site)) {
                 return true;
             }
             if (card.categoria === "codigo" && (codigo === "todos" || card.subcategoria === codigo)) {

@@ -1,5 +1,6 @@
+
 import './cabecalho.css'
-import './cabecalho.Resposividade.css'
+import './cabecalhoResponsividade.css'
 
 export default function Cabecalho () {
 
@@ -50,8 +51,6 @@ export default function Cabecalho () {
                     */}
 
                 </nav>
-
-                
 
             </section>
         

@@ -1,0 +1,49 @@
+@media (max-width: 500px) {
+
+    .TituloPagina {
+
+        font-size: 40px;
+        width: 200px;
+       
+    }
+
+    .logotipoImg {
+
+        width: 45px;
+    
+    }
+
+    .cabecalho {
+
+        width: calc(100% - 20px);
+        padding: 40px 10px;
+
+    }
+   
+}
+
+@media (max-width: 700px) {
+
+    .TituloPagina {
+
+        font-size: 50px;
+        width: 200px;
+       
+    }
+
+    .logotipoImg {
+
+        width: 60px;
+    
+    }
+
+    .cabecalho {
+
+        width: calc(100% - 20px);
+        padding: 40px 10px;
+
+    }
+   
+}
+  
+  

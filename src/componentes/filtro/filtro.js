@@ -9,6 +9,7 @@ const options = [
   { value: "nenhum", label: "Nenhum" },
   { value: "biblioteca", label: "Biblioteca" },
   { value: "aprendizado", label: "Aprendizado" },
+  { value: "design", label: "Design" },
 ];
 
 const options2 = [

@@ -1,3 +1,4 @@
+
 .links {
 
     display: flex;
@@ -20,16 +21,16 @@
   }
 
   .card span {
-    font-weight: bold;
+    font-weight: 500;
     color: rgb(0, 0, 0);
     text-align: center;
     display: block;
     font-size: 25px;
-    font-family: "Trap", sans-serif;
+    font-family: 'Inter', sans-serif;
     letter-spacing: 2px;
     line-height: 1.2;
-    font-weight: bold;
     margin: 20px 0px;
+    height: 60px;
   }
   
   .card .info {
@@ -38,10 +39,9 @@
     display: block;
     text-align: center;
     font-size: 15px;
-    font-family: "Trap", sans-serif;
+    font-family: 'Inter', sans-serif;
     letter-spacing: 2px;
     line-height: 1.2;
-    font-weight: bold;
     margin: 1em;
     height: 150px;
   }
@@ -107,7 +107,7 @@
 .linkCard {
 
     font-size: 20px;
-    font-family: "Trap", sans-serif;
+    font-family: 'Inter', sans-serif;
     letter-spacing: 2px;
     line-height: 1.2;
     font-weight: bold;

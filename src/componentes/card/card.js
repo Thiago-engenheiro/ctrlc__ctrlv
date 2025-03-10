@@ -7,7 +7,7 @@ const Card = ({ id, titulo, descricao, url, imagem, categoria, Subcategoria }) =
         switch (categoria.toLowerCase()) {
             case 'codigo':
                 return '/imagens/iconeTag/code-svgrepo-com.svg';
-            case 'sites':
+            case 'site':
                 return '/imagens/iconeTag/website-svgrepo-com.svg';
             case 'entretenimento':
                 return '/imagens/iconeTag/entretenimento.svg';
@@ -61,7 +61,7 @@ const Card = ({ id, titulo, descricao, url, imagem, categoria, Subcategoria }) =
             </p>
 
             <a className="linkCard" href={url} target="_blank" rel="noopener noreferrer">
-                Link para o código
+                Link para o(a) {categoria}
             </a>
         </div>
     );
