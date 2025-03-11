@@ -79,7 +79,7 @@ const Links = () => {
         return true;
       }
       if (
-        card.categoria === "MeusSites" &&
+        card.categoria === "meusSites" &&
         (MeusSites === "todos" || card.subcategoria === MeusSites)
       ) {
         return true;

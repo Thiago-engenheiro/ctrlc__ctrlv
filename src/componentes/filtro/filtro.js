@@ -16,6 +16,8 @@ const options2 = [
   { value: "nenhum", label: "Nenhum" },
   { value: "botao", label: "Botao" },
   { value: "card", label: "Card" },
+  { value: "checkbox", label: "Checkbox" },
+
 ];
 
 const optionsEntretenimento = [
@@ -53,15 +55,28 @@ const optionsFaculdades = [
 const optionsAlura = [
   { value: "todos", label: "Todos" },
   { value: "nenhum", label: "Nenhum" },
-  { value: "desenvolvimento", label: "Desenvolvimento" },
-  { value: "pessoal", label: "Pessoal" },
+  { value: "canva", label: "Canva" },
+  { value: "comportamento", label: "Comportamento" },
+  { value: "comunicacao", label: "Comunicação" },
+  { value: "excel", label: "Excel" },
+  { value: "formacao", label: "Formação" },
+  { value: "frameworks", label: "Frameworks" },
+  { value: "git", label: "Git" },
+  { value: "html-css", label: "Html-css" },
+  { value: "javaScript", label: "JavaScript" },
+  { value: "lideranca", label: "Liderança" },
+  { value: "powerBi", label: "Power Bi" },
+  { value: "react", label: "React" },
+  { value: "ux", label: "UX" },
+  { value: "wordPress", label: "WordPress" },
 ];
 
 const optionsUdemy = [
   { value: "todos", label: "Todos" },
   { value: "nenhum", label: "Nenhum" },
-  { value: "desenvolvimento", label: "Desenvolvimento" },
-  { value: "cibersegurança", label: "Cibersegurança" },
+  { value: "ciberseguranca", label: "Cibersegurança" },
+  { value: "redes", label: "Redes" },
+  { value: "python", label: "Python" },
 ];
 
 const SelectInput = ({
@@ -232,7 +247,7 @@ export default function Filtro({ onValoresAtualizados = () => {} }) {
 
         <div className="todosOsFiltros">
           <div className="filtro">
-            <label className="tituloFiltro">Links pessoal</label>
+            <label className="tituloFiltro">Links pessoais</label>
             <FiltrosSwitche
               checked={estadoTodosOsLinksPessoal}
               onChange={handleToggle2}
@@ -292,56 +307,61 @@ export default function Filtro({ onValoresAtualizados = () => {} }) {
           </div>
         </div>
 
-        <div className="linhaDecorativa"></div>
+        {/*
 
-        <div className="todosOsFiltros">
-          <div className="filtro">
-            <label className="tituloFiltro">Certificados</label>
-            <FiltrosSwitche
-              checked={estadoTodosOsLinksCertificado}
-              onChange={handleToggle3}
-            />
+          <div className="linhaDecorativa"></div>
+
+          <div className="todosOsFiltros">
+            <div className="filtro">
+              <label className="tituloFiltro">Certificados</label>
+              <FiltrosSwitche
+                checked={estadoTodosOsLinksCertificado}
+                onChange={handleToggle3}
+              />
+            </div>
+
+            <div className="filtro">
+              <SelectInput
+                imagem="/imagens/iconeTag/alura.png"
+                id="filtroAlura"
+                label="Alura"
+                options={optionsAlura}
+                name="alura"
+                value={aluraValue}
+                onChange={setAluraValue}
+                disabled={!estadoTodosOsLinksCertificado}
+              />
+            </div>
+
+            <div className="filtro">
+              <SelectInput
+                imagem="/imagens/iconeTag/udemy.png"
+                id="filtroUdemy"
+                label="Udemy"
+                options={optionsUdemy}
+                name="udemy"
+                value={udemyValue}
+                onChange={setUdemyValue}
+                disabled={!estadoTodosOsLinksCertificado}
+              />
+            </div>
+
+            <div className="filtro">
+              <SelectInput
+                imagem="/imagens/iconeTag/certificado.svg"
+                id="filtroUdemy"
+                label="Faculdade"
+                options={optionsFaculdades}
+                name="faculdade"
+                value={faculdadeValue}
+                onChange={setFaculdadeValue}
+                disabled={!estadoTodosOsLinksCertificado}
+              />
+            </div>
+
           </div>
 
-          <div className="filtro">
-            <SelectInput
-              imagem="/imagens/iconeTag/alura.png"
-              id="filtroAlura"
-              label="Alura"
-              options={optionsAlura}
-              name="alura"
-              value={aluraValue}
-              onChange={setAluraValue}
-              disabled={!estadoTodosOsLinksCertificado}
-            />
-          </div>
-
-          <div className="filtro">
-            <SelectInput
-              imagem="/imagens/iconeTag/udemy.png"
-              id="filtroUdemy"
-              label="Udemy"
-              options={optionsUdemy}
-              name="udemy"
-              value={udemyValue}
-              onChange={setUdemyValue}
-              disabled={!estadoTodosOsLinksCertificado}
-            />
-          </div>
-
-          <div className="filtro">
-            <SelectInput
-              imagem="/imagens/iconeTag/certificado.svg"
-              id="filtroUdemy"
-              label="Faculdade"
-              options={optionsFaculdades}
-              name="faculdade"
-              value={faculdadeValue}
-              onChange={setFaculdadeValue}
-              disabled={!estadoTodosOsLinksCertificado}
-            />
-          </div>
-        </div>
+        */}
       </section>
     </>
   );

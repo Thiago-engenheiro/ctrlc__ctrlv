@@ -12,7 +12,17 @@ const Card = ({ id, titulo, descricao, url, imagem, categoria, Subcategoria }) =
             case 'entretenimento':
                 return '/imagens/iconeTag/entretenimento.svg';
             case 'youtube':
-                return '/imagens/iconeTag/youtube.svg';    
+                return '/imagens/iconeTag/youtube.svg';
+            case 'receita':
+                return '/imagens/iconeTag/food.svg';
+            case 'meusSites':
+                return '/imagens/iconeTag/website.svg';
+            case 'alura':
+                return '/imagens/iconeTag/alura.png';
+            case 'udemy':
+                    return '/imagens/iconeTag/udemy.png';
+            case 'faculdade':
+                    return '/imagens/iconeTag/certificado.svg';                
             
             default:
                 return '/imagens/iconeTag/question-sign.png'; 

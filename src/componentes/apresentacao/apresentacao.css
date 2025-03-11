@@ -199,4 +199,27 @@
   background: rgb(1, 191, 191);
 }
 
+.udemy, .faculdade {
+  background: rgb(255, 255, 255);
+
+}
+
+.udemy:hover, .faculdade  {
+  background: rgb(221, 221, 221);
+
+}
+
+.alura  {
+
+  background: #0b66cf;
+
+}
+
+.alura:hover  {
+  
+  background: #0441aa;
+
+}
+
+
 

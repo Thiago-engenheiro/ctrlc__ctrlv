@@ -1,156 +1,213 @@
 {
+  "cards": [
+    {
+      "id": 1,
+      "titulo": "Botão com uma seta animada",
+      "descricao": "Botão com seta animada ao passa o mause.",
+      "url": "https://uiverse.io/adamgiebl/smart-moth-68",
+      "imagem": "/imagens/imagensParaLinks/codigo/botoes/botaoComSetaAnimado.mp4",
+      "categoria": "codigo",
+      "subcategoria": "botao"
+    },
 
-    "cards": [
+    {
+      "id": 2,
+      "titulo": "Bliblioteca - /uiverse.io",
+      "descricao": "Plataforma de código aberto com elementos de interface de usuário desenvolvidos pela comunidade, oferecendo componentes prontos para facilitar o design de interfaces.",
+      "url": "https://uiverse.io",
+      "imagem": "/imagens/imagensParaLinks/sites/bibliotecas/uiUniverse.mp4",
+      "categoria": "site",
+      "subcategoria": "biblioteca"
+    },
 
-        {
-            
-            "id": 1,
-            "titulo": "Botão com uma seta animada",
-            "descricao": "Botão com seta animada ao passa o mause.",
-            "url": "https://uiverse.io/adamgiebl/smart-moth-68",
-            "imagem": "/imagens/imagensParaLinks/codigo/botoes/botaoComSetaAnimado.mp4",
-            "categoria": "codigo",
-            "subcategoria": "botao"
+    {
+      "id": 3,
+      "titulo": "Bliblioteca - /codepen",
+      "descricao": "Plataforma de desenvolvedores com uma seção de Trending, onde você encontra componentes de UI compartilhados pela comunidade, constantemente atualizados e melhorados.",
+      "url": "https://codepen.io/trending",
+      "imagem": "/imagens/imagensParaLinks/sites/bibliotecas/codePen.gif",
+      "categoria": "site",
+      "subcategoria": "biblioteca"
+    },
 
-        },
+    {
+      "id": 4,
+      "titulo": "Plataforma de design - /Dribbble",
+      "descricao": "Plataforma de designers, ideal para encontrar inspirações de UI/UX e design gráfico. É um ótimo lugar para ver trabalhos criativos e compartilhar seu próprio portfólio.",
+      "url": "https://dribbble.com",
+      "imagem": "/imagens/imagensParaLinks/sites/desing/Dribbble.mp4",
+      "categoria": "site",
+      "subcategoria": "design"
+    },
 
-        {
+    {
+      "id": 5,
+      "titulo": "Plataforma de design - /Figma",
+      "descricao": "Uma ferramenta de design colaborativo em tempo real, amplamente usada para criar protótipos e design de interfaces. É gratuita para uso individual e um ótimo lugar para aprender design.",
+      "url": "https://www.figma.com/pt-br/",
+      "imagem": "/imagens/imagensParaLinks/sites/desing/figma.mp4",
+      "categoria": "site",
+      "subcategoria": "design"
+    },
 
-            "id": 2,
-            "titulo": "Bliblioteca - /uiverse.io",
-            "descricao": "Plataforma de código aberto com elementos de interface de usuário desenvolvidos pela comunidade, oferecendo componentes prontos para facilitar o design de interfaces.",
-            "url": "https://uiverse.io",
-            "imagem": "/imagens/imagensParaLinks/sites/bibliotecas/uiUniverse.mp4",
-            "categoria": "site",
-            "subcategoria": "biblioteca"
+    {
+      "id": 6,
+      "titulo": "Plataforma de design - /Canva",
+      "descricao": "Plataforma fácil de usar para criar gráficos e designs, ideal para quem não é designer profissional mas precisa criar materiais visuais rápidos.",
+      "url": "https://www.canva.com",
+      "imagem": "/imagens/imagensParaLinks/sites/desing/Canva.mp4",
+      "categoria": "site",
+      "subcategoria": "design"
+    },
 
-        },
+    {
+      "id": 7,
+      "titulo": "Website de tutoriais - /CSS-Tricks",
+      "descricao": "Um site dedicado a tutoriais e dicas de CSS, HTML e JavaScript. Ideal para desenvolvedores front-end que querem melhorar suas habilidades com design e técnicas de desenvolvimento.",
+      "url": "https://css-tricks.com",
+      "imagem": "/imagens/imagensParaLinks/sites/aprendizado/css-tricks.png",
+      "categoria": "site",
+      "subcategoria": "aprendizado"
+    },
 
-        {
-            
-            "id": 3,
-            "titulo": "Bliblioteca - /codepen",
-            "descricao": "Plataforma de desenvolvedores com uma seção de Trending, onde você encontra componentes de UI compartilhados pela comunidade, constantemente atualizados e melhorados.",
-            "url": "https://codepen.io/trending",
-            "imagem": "/imagens/imagensParaLinks/sites/bibliotecas/codePen.gif",
-            "categoria": "site",
-            "subcategoria": "biblioteca"
+    {
+      "id": 8,
+      "titulo": "Website de tutoriais - /Frontend Mentor",
+      "descricao": "Um site onde você pode melhorar suas habilidades em front-end resolvendo desafios práticos de design e código, com designs prontos para implementar.",
+      "url": "https://www.frontendmentor.io",
+      "imagem": "/imagens/imagensParaLinks/sites/aprendizado/frontendmentor.png",
+      "categoria": "site",
+      "subcategoria": "aprendizado"
+    },
 
-        },
+    {
+      "id": 9,
+      "titulo": "Plataforma de design - /Coolors",
+      "descricao": "Ferramenta para criar paletas de cores. Útil para quem está começando a trabalhar com design e quer criar combinações de cores harmônicas.",
+      "url": "https://coolors.co",
+      "imagem": "/imagens/imagensParaLinks/sites/desing/Coolors.mp4",
+      "categoria": "site",
+      "subcategoria": "design"
+    },
 
-        {
-            
-            "id": 4,
-            "titulo": "Plataforma de design - /Dribbble",
-            "descricao": "Plataforma de designers, ideal para encontrar inspirações de UI/UX e design gráfico. É um ótimo lugar para ver trabalhos criativos e compartilhar seu próprio portfólio.",
-            "url": "https://dribbble.com",
-            "imagem": "/imagens/imagensParaLinks/sites/desing/Dribbble.mp4",
-            "categoria": "site",
-            "subcategoria": "design"
+    {
+      "id": 10,
+      "titulo": "Plataforma de design - /Unsplash",
+      "descricao": "Banco de imagens gratuitas de alta qualidade, muito usadas para melhorar o design visual de sites e projetos gráficos.",
+      "url": "https://unsplash.com/pt-br",
+      "imagem": "/imagens/imagensParaLinks/sites/desing/Unsplash.png",
+      "categoria": "site",
+      "subcategoria": "design"
+    },
 
-        },
+    {
+      "id": 11,
+      "titulo": "Bliblioteca - /lottiefiles",
+      "descricao": "Uma plataforma para encontrar animações em formato Lottie que podem ser facilmente integradas a websites ou aplicativos móveis.",
+      "url": "https://lottiefiles.com",
+      "imagem": "/imagens/imagensParaLinks/sites/bibliotecas/lottiefiles.mp4",
+      "categoria": "site",
+      "subcategoria": "biblioteca"
+    },
 
-        {
-            
-            "id": 5,
-            "titulo": "Plataforma de design - /Figma",
-            "descricao": "Uma ferramenta de design colaborativo em tempo real, amplamente usada para criar protótipos e design de interfaces. É gratuita para uso individual e um ótimo lugar para aprender design.",
-            "url": "https://www.figma.com/pt-br/",
-            "imagem": "/imagens/imagensParaLinks/sites/desing/figma.mp4",
-            "categoria": "site",
-            "subcategoria": "design"
+    {
+      "id": 12,
+      "titulo": "Bliblioteca - /spline",
+      "descricao": "E uma ferramenta online de design 3D interativo. Ele permite que os usuários criem, editem e compartilhem modelos 3D diretamente no navegador, sem precisar de um software complexo.",
+      "url": "https://spline.design",
+      "imagem": "/imagens/imagensParaLinks/sites/bibliotecas/spline.mp4",
+      "categoria": "site",
+      "subcategoria": "biblioteca"
+    },
 
-        },
+    {
+      "id": 13,
+      "titulo": "Botão github",
+      "descricao": "Botão com hover colorido de estrelas.",
+      "url": "https://uiverse.io/elijahgummer/unlucky-rattlesnake-65",
+      "imagem": "/imagens/imagensParaLinks/codigo/botoes/botao02.mp4",
+      "categoria": "codigo",
+      "subcategoria": "botao"
+    },
 
-        {
-            
-            "id": 6,
-            "titulo": "Plataforma de design - /Canva",
-            "descricao": "Plataforma fácil de usar para criar gráficos e designs, ideal para quem não é designer profissional mas precisa criar materiais visuais rápidos.",
-            "url": "https://www.canva.com",
-            "imagem": "/imagens/imagensParaLinks/sites/desing/Canva.mp4",
-            "categoria": "site",
-            "subcategoria": "design"
+    {
+      "id": 14,
+      "titulo": "Botão notificação",
+      "descricao": "Botão animado para notificação",
+      "url": "https://uiverse.io/Zain-Muhammad/plastic-gecko-7",
+      "imagem": "/imagens/imagensParaLinks/codigo/botoes/botao03.mp4",
+      "categoria": "codigo",
+      "subcategoria": "botao"
+    },
 
-        },
+    {
+      "id": 15,
+      "titulo": "Input de login neon ",
+      "descricao": "Input com efeito neon no hover",
+      "url": "https://uiverse.io/fejr_8483/brave-fox-32",
+      "imagem": "/imagens/imagensParaLinks/codigo/botoes/botao04.mp4",
+      "categoria": "codigo",
+      "subcategoria": "botao"
+    },
 
-        {
-            
-            "id": 7,
-            "titulo": "Website de tutoriais - /CSS-Tricks",
-            "descricao": "Um site dedicado a tutoriais e dicas de CSS, HTML e JavaScript. Ideal para desenvolvedores front-end que querem melhorar suas habilidades com design e técnicas de desenvolvimento.",
-            "url": "https://css-tricks.com",
-            "imagem": "/imagens/imagensParaLinks/sites/aprendizado/css-tricks.png",
-            "categoria": "site",
-            "subcategoria": "aprendizado"
+    {
+      "id": 16,
+      "titulo": "Botão luz ",
+      "descricao": "Botão com efeito luz no hover",
+      "url": "https://uiverse.io/themrsami/proud-duck-45",
+      "imagem": "/imagens/imagensParaLinks/codigo/botoes/botao05.mp4",
+      "categoria": "codigo",
+      "subcategoria": "botao"
+    },
 
-        },
+    {
+      "id": 17,
+      "titulo": "Checkbox favorito coração ",
+      "descricao": "Checkbox com formato de coração com efeito ao clique",
+      "url": "https://uiverse.io/catraco/plastic-moth-91",
+      "imagem": "/imagens/imagensParaLinks/codigo/checkbox/checkbox01.mp4",
+      "categoria": "codigo",
+      "subcategoria": "checkbox"
+    },
 
-        {
-            
-            "id": 8,
-            "titulo": "Website de tutoriais - /Frontend Mentor",
-            "descricao": "Um site onde você pode melhorar suas habilidades em front-end resolvendo desafios práticos de design e código, com designs prontos para implementar.",
-            "url": "https://www.frontendmentor.io",
-            "imagem": "/imagens/imagensParaLinks/sites/aprendizado/frontendmentor.png",
-            "categoria": "site",
-            "subcategoria": "aprendizado"
+    {
+      "id": 18,
+      "titulo": "Checkbox horizontal colorido ",
+      "descricao": "Checkbox com cores diversas",
+      "url": "https://uiverse.io/kyle1dev/afraid-wasp-94",
+      "imagem": "/imagens/imagensParaLinks/codigo/checkbox/checkbox02.mp4",
+      "categoria": "codigo",
+      "subcategoria": "checkbox"
+    },
 
-        },
+    {
+      "id": 19,
+      "titulo": "Checkbox de cadeado ",
+      "descricao": "Checkbox voltado a permissão com animação",
+      "url": "https://uiverse.io/mobinkakei/strange-frog-14",
+      "imagem": "/imagens/imagensParaLinks/codigo/checkbox/checkbox03.mp4",
+      "categoria": "codigo",
+      "subcategoria": "checkbox"
+    },
 
-        {
-            
-            "id": 9,
-            "titulo": "Plataforma de design - /Coolors",
-            "descricao": "Ferramenta para criar paletas de cores. Útil para quem está começando a trabalhar com design e quer criar combinações de cores harmônicas.",
-            "url": "https://coolors.co",
-            "imagem": "/imagens/imagensParaLinks/sites/desing/Coolors.mp4",
-            "categoria": "site",
-            "subcategoria": "design"
+    {
+      "id": 20,
+      "titulo": "Checkbox com varias opçôes ",
+      "descricao": "Checkbox com 4 opção com design classico",
+      "url": "https://uiverse.io/cbolson/calm-wasp-75",
+      "imagem": "/imagens/imagensParaLinks/codigo/checkbox/checkbox04.mp4",
+      "categoria": "codigo",
+      "subcategoria": "checkbox"
+    },
 
-        },
-
-        {
-            
-            "id": 10,
-            "titulo": "Plataforma de design - /Unsplash",
-            "descricao": "Banco de imagens gratuitas de alta qualidade, muito usadas para melhorar o design visual de sites e projetos gráficos.",
-            "url": "https://unsplash.com/pt-br",
-            "imagem": "/imagens/imagensParaLinks/sites/desing/Unsplash.png",
-            "categoria": "site",
-            "subcategoria": "design"
-
-        },
-
-        {
-            
-            "id": 11,
-            "titulo": "Bliblioteca - /lottiefiles",
-            "descricao": "Uma plataforma para encontrar animações em formato Lottie que podem ser facilmente integradas a websites ou aplicativos móveis.",
-            "url": "https://lottiefiles.com",
-            "imagem": "/imagens/imagensParaLinks/sites/bibliotecas/lottiefiles.mp4",
-            "categoria": "site",
-             "subcategoria": "biblioteca"
-
-        },
-
-        {
-            
-            "id": 12,
-            "titulo": "Bliblioteca - /spline",
-            "descricao": "é uma ferramenta online de design 3D interativo. Ele permite que os usuários criem, editem e compartilhem modelos 3D diretamente no navegador, sem precisar de um software complexo.",
-            "url": "https://spline.design",
-            "imagem": "/imagens/imagensParaLinks/sites/bibliotecas/spline.mp4",
-            "categoria": "site",
-             "subcategoria": "biblioteca"
-
-        }
-
-
-       
-
-
-        
-    ]
-
+    {
+      "id": 21,
+      "titulo": "Checkbox de lista com animação ",
+      "descricao": "Checkbox moderno de listas",
+      "url": "https://uiverse.io/JkHuger/warm-panther-74",
+      "imagem": "/imagens/imagensParaLinks/codigo/checkbox/checkbox05.mp4",
+      "categoria": "codigo",
+      "subcategoria": "checkbox"
+    }
+  ]
 }
