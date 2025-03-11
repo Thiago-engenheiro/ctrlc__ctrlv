@@ -1,8 +1,7 @@
 import "./filtro.css";
 import React, { useState, useEffect } from "react";
 import FiltrosSwitche from "./filtrosSwitche";
-import './filtroResponsividade.css'
-
+import "./filtroResponsividade.css";
 
 const options = [
   { value: "todos", label: "Todos" },
@@ -33,6 +32,38 @@ const optionsYoutube = [
   { value: "midia", label: "Midia" },
 ];
 
+const optionsReceitas = [
+  { value: "todos", label: "Todos" },
+  { value: "nenhum", label: "Nenhum" },
+  { value: "almoco/janta", label: "Almoço/janta" },
+  { value: "doces", label: "Doces" },
+  { value: "salgado", label: "Salgado" },
+];
+
+const optionsMeusSites = [
+  { value: "todos", label: "Todos" },
+  { value: "nenhum", label: "Nenhum" },
+];
+
+const optionsFaculdades = [
+  { value: "todos", label: "Todos" },
+  { value: "nenhum", label: "Nenhum" },
+];
+
+const optionsAlura = [
+  { value: "todos", label: "Todos" },
+  { value: "nenhum", label: "Nenhum" },
+  { value: "desenvolvimento", label: "Desenvolvimento" },
+  { value: "pessoal", label: "Pessoal" },
+];
+
+const optionsUdemy = [
+  { value: "todos", label: "Todos" },
+  { value: "nenhum", label: "Nenhum" },
+  { value: "desenvolvimento", label: "Desenvolvimento" },
+  { value: "cibersegurança", label: "Cibersegurança" },
+];
+
 const SelectInput = ({
   imagem,
   id,
@@ -44,9 +75,7 @@ const SelectInput = ({
   disabled,
 }) => {
   const handleChange = (e) => {
-
     onChange(e.target.value);
-
   };
 
   let selectClass = "inputFiltro";
@@ -82,16 +111,24 @@ const SelectInput = ({
   );
 };
 
-export default function Filtro({ onValoresAtualizados = () => {} }) { 
-
+export default function Filtro({ onValoresAtualizados = () => {} }) {
   const [estadoTodosOsLinks, setEstadoTodosOsLinks] = useState(true);
-  const [estadoTodosOsLinksPessoal, setEstadoTodosOsLinksPessoal] = useState(false);
+  const [estadoTodosOsLinksPessoal, setEstadoTodosOsLinksPessoal] =
+    useState(false);
+  const [estadoTodosOsLinksCertificado, setEstadoTodosOsLinksCertificado] =
+    useState(false);
 
   const [siteValue, setSiteValue] = useState("todos");
   const [codigoValue, setCodigoValue] = useState("todos");
 
   const [entretenimentoValue, setEntretenimentoValue] = useState("nenhum");
   const [YoutubeValue, setYoutubeValue] = useState("nenhum");
+  const [ReceitasValue, setReceitasValue] = useState("nenhum");
+  const [MeusSitesValue, setMeusSitesValue] = useState("nenhum");
+
+  const [aluraValue, setAluraValue] = useState("nenhum");
+  const [udemyValue, setUdemyValue] = useState("nenhum");
+  const [faculdadeValue, setFaculdadeValue] = useState("nenhum");
 
   const handleToggle = () => {
     const newState = !estadoTodosOsLinks;
@@ -107,27 +144,51 @@ export default function Filtro({ onValoresAtualizados = () => {} }) {
     const newValue = newState ? "todos" : "nenhum";
     setEntretenimentoValue(newValue);
     setYoutubeValue(newValue);
+    setReceitasValue(newValue);
+    setMeusSitesValue(newValue);
+  };
+
+  const handleToggle3 = () => {
+    const newState = !estadoTodosOsLinksCertificado;
+    setEstadoTodosOsLinksCertificado(newState);
+    const newValue = newState ? "todos" : "nenhum";
+    setAluraValue(newValue);
+    setUdemyValue(newValue);
+    setFaculdadeValue(newValue);
   };
 
   useEffect(() => {
-
     const valores = {
       site: siteValue,
       codigo: codigoValue,
       entretenimento: entretenimentoValue,
       youtube: YoutubeValue,
-  };
+      alura: aluraValue,
+      udemy: udemyValue,
+      MeusSites: MeusSitesValue,
+      receitas: ReceitasValue,
+      faculdade: faculdadeValue,
+    };
 
-  console.log("Valores atualizados no Filtro:", valores);
+    console.log("Valores atualizados no Filtro:", valores);
 
-  if (typeof onValoresAtualizados === "function") {
-    onValoresAtualizados(valores); 
-  } else {
-    console.error("onValoresAtualizados não é uma função!");
-  }
-  }, [siteValue, codigoValue, entretenimentoValue, YoutubeValue, onValoresAtualizados])
-
-  
+    if (typeof onValoresAtualizados === "function") {
+      onValoresAtualizados(valores);
+    } else {
+      console.error("onValoresAtualizados não é uma função!");
+    }
+  }, [
+    siteValue,
+    codigoValue,
+    entretenimentoValue,
+    YoutubeValue,
+    aluraValue,
+    udemyValue,
+    MeusSitesValue,
+    ReceitasValue,
+    faculdadeValue,
+    onValoresAtualizados,
+  ]);
 
   return (
     <>
@@ -135,7 +196,7 @@ export default function Filtro({ onValoresAtualizados = () => {} }) {
         <h3 className="filtroTitulo">Seletores de busca</h3>
         <div className="todosOsFiltros">
           <div className="filtro">
-            <label className="tituloFiltro">Todos os links</label>
+            <label className="tituloFiltro">links para TI</label>
             <FiltrosSwitche
               checked={estadoTodosOsLinks}
               onChange={handleToggle}
@@ -201,6 +262,83 @@ export default function Filtro({ onValoresAtualizados = () => {} }) {
               value={YoutubeValue}
               onChange={setYoutubeValue}
               disabled={!estadoTodosOsLinksPessoal}
+            />
+          </div>
+
+          <div className="filtro">
+            <SelectInput
+              imagem="/imagens/iconeTag/food.svg"
+              id="filtroReceita"
+              label="Receita"
+              options={optionsReceitas}
+              name="Receita"
+              value={ReceitasValue}
+              onChange={setReceitasValue}
+              disabled={!estadoTodosOsLinksPessoal}
+            />
+          </div>
+
+          <div className="filtro">
+            <SelectInput
+              imagem="/imagens/iconeTag/website.svg"
+              id="filtroMeusSites"
+              label="Meus-Sites"
+              options={optionsMeusSites}
+              name="Meus-Sites"
+              value={MeusSitesValue}
+              onChange={setMeusSitesValue}
+              disabled={!estadoTodosOsLinksPessoal}
+            />
+          </div>
+        </div>
+
+        <div className="linhaDecorativa"></div>
+
+        <div className="todosOsFiltros">
+          <div className="filtro">
+            <label className="tituloFiltro">Certificados</label>
+            <FiltrosSwitche
+              checked={estadoTodosOsLinksCertificado}
+              onChange={handleToggle3}
+            />
+          </div>
+
+          <div className="filtro">
+            <SelectInput
+              imagem="/imagens/iconeTag/alura.png"
+              id="filtroAlura"
+              label="Alura"
+              options={optionsAlura}
+              name="alura"
+              value={aluraValue}
+              onChange={setAluraValue}
+              disabled={!estadoTodosOsLinksCertificado}
+            />
+          </div>
+
+          <div className="filtro">
+            <SelectInput
+              imagem="/imagens/iconeTag/udemy.png"
+              id="filtroUdemy"
+              label="Udemy"
+              options={optionsUdemy}
+              name="udemy"
+              value={udemyValue}
+              onChange={setUdemyValue}
+              disabled={!estadoTodosOsLinksCertificado}
+            />
+          </div>
+
+          <div className="filtro">
+            <SelectInput
+              imagem="/imagens/iconeTag/certificado.svg"
+              id="filtroUdemy"
+              label="Faculdade"
+              options={optionsFaculdades}
+              name="faculdade"
+              value={faculdadeValue}
+              onChange={setFaculdadeValue}
+              disabled={!estadoTodosOsLinksCertificado}
             />
           </div>
         </div>

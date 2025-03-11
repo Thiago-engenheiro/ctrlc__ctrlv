@@ -9,6 +9,11 @@ const Links = () => {
     codigo: "todos",
     entretenimento: "todos",
     youtube: "todos",
+    alura: "todos",
+    udemy: "todos",
+    MeusSites: "todos",
+    receitas: "todos",
+    faculdade: "todos",
   });
 
   useEffect(() => {
@@ -21,7 +26,7 @@ const Links = () => {
   // Função para filtrar os cards
   const filtrarCards = () => {
     return dadosCards.filter((card) => {
-      const { site, codigo, entretenimento, youtube } = valoresDosFiltros;
+      const { site, codigo, entretenimento, youtube, alura, udemy, MeusSites, receita, faculdade } = valoresDosFiltros;
 
       console.log();
 
@@ -46,6 +51,36 @@ const Links = () => {
       if (
         card.categoria === "youtube" &&
         (youtube === "todos" || card.subcategoria === youtube)
+      ) {
+        return true;
+      }
+      if (
+        card.categoria === "alura" &&
+        (alura === "todos" || card.subcategoria === alura)
+      ) {
+        return true;
+      }
+      if (
+        card.categoria === "udemy" &&
+        (udemy === "todos" || card.subcategoria === udemy)
+      ) {
+        return true;
+      }
+      if (
+        card.categoria === "faculdade" &&
+        (faculdade === "todos" || card.subcategoria === faculdade)
+      ) {
+        return true;
+      }
+      if (
+        card.categoria === "receita" &&
+        (receita === "todos" || card.subcategoria === receita)
+      ) {
+        return true;
+      }
+      if (
+        card.categoria === "MeusSites" &&
+        (MeusSites === "todos" || card.subcategoria === MeusSites)
       ) {
         return true;
       }
