@@ -185,7 +185,7 @@
       "titulo": "Checkbox de cadeado ",
       "descricao": "Checkbox voltado a permissão com animação",
       "url": "https://uiverse.io/mobinkakei/strange-frog-14",
-      "imagem": "/imagens/imagensParaLinks/codigo/checkbox/checkbox03.mp4",
+      "imagem": "/imagens/imagensParaLinks/codigo/checkbox/checkbo3.mp4",
       "categoria": "codigo",
       "subcategoria": "checkbox"
     },
@@ -208,6 +208,26 @@
       "imagem": "/imagens/imagensParaLinks/codigo/checkbox/checkbox05.mp4",
       "categoria": "codigo",
       "subcategoria": "checkbox"
+    },
+
+    {
+      "id": 22,
+      "titulo": "Plataforma de design - /tripo3d",
+      "descricao": "Um site que usa IA para transformar iamagens em objetos 3D.",
+      "url": "https://www.tripo3d.ai/",
+      "imagem": "/imagens/imagensParaLinks/sites/desing/tripo3d.mp4",
+      "categoria": "site",
+      "subcategoria": "biblioteca"
+    },
+
+    {
+      "id": 23,
+      "titulo": "video de React - /Youtube",
+      "descricao": "Como passar parametro para outro componente REACTJS.",
+      "url": "https://www.youtube.com/watch?v=AylFuSCPlBI",
+      "imagem": "https://img.youtube.com/vi/AylFuSCPlBI/maxresdefault.jpg",
+      "categoria": "youtube",
+      "subcategoria": "aprendizado"
     }
   ]
 }

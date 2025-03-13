@@ -32,6 +32,7 @@ const optionsYoutube = [
   { value: "nenhum", label: "Nenhum" },
   { value: "jogos", label: "jogos" },
   { value: "midia", label: "Midia" },
+  { value: "aprendizado", label: "Aprendizado" },
 ];
 
 const optionsReceitas = [
