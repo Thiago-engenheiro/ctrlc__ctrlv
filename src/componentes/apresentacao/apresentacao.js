@@ -53,7 +53,7 @@ export default function Apresentacao() {
 
         <div className="continerSecaoBusca">
           <h2 className="Tituloinput">
-            O que você <br></br> procura ?
+            Os meus <br></br> melhores links
           </h2>
 
           <input
@@ -99,7 +99,8 @@ export default function Apresentacao() {
               ></img>
               Sites
             </p>
-          </div>
+            </div>
+
         </div>
 
         <div className="continerImagemIlustracaoDireitaCima">
@@ -126,6 +127,7 @@ export default function Apresentacao() {
             src="/imagens/ilustracaoApresentacao/8.webp"
             alt="img"
           ></img>
+
         </div>
 
         <div className="linhaFantasmaGrind"></div>
@@ -148,7 +150,9 @@ export default function Apresentacao() {
             src="/imagens/ilustracaoApresentacao/15.webp"
             alt="img"
           ></img>
+
         </div>
+   
       </section>
     </>
   );

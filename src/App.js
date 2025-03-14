@@ -10,36 +10,28 @@ import TelaDeCarregamento from "./componentes/telaDeCarregamento/telaDeCarregame
 import { useState } from "react";
 
 function App() {
-
-  const [paginaCarregada, setPaginaCarregada] = useState (false)
+  const [paginaCarregada, setPaginaCarregada] = useState(false);
 
   const resultadoAtualizado = (r) => {
-
-    setPaginaCarregada (r)
-
-  }
+    setPaginaCarregada(r);
+  };
 
   return (
     <div className="App">
-
-      <TelaDeCarregamento resultadoDoCarregamento = {resultadoAtualizado}></TelaDeCarregamento>
-      <div className="conteudo" hidden = {!paginaCarregada}>
+      <TelaDeCarregamento
+        resultadoDoCarregamento={resultadoAtualizado}
+      ></TelaDeCarregamento>
+      <div className="conteudo" hidden={!paginaCarregada}>
         <FundoDaPagina></FundoDaPagina>
         <Cabecalho></Cabecalho>
-        <Apresentacao></Apresentacao>
         <RedesSocias></RedesSocias>
 
         <div className="continerConteudo">
-
-    
           <Links></Links>
-          
         </div>
 
-      <Rodape></Rodape>
-
+        <Rodape></Rodape>
       </div>
-
     </div>
   );
 }
