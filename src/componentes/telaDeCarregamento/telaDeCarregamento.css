@@ -1,134 +1,176 @@
 .telaDeCarregamento {
-
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    background-color: #e8e8e8;
-    position: fixed;
-    z-index: 999999;
-    top: 0;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: #e8e8e8;
+  position: fixed;
+  z-index: 999999;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  visibility: visible;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+  opacity: 1;
 }
 
 .tituloCarregamento {
-
-    font-family: 'inverse', sans-serif;
-    font-size: 60px;
-    margin: 0px 0px 25px 0px
-
+  font-family: "inverse", sans-serif;
+  font-size: 60px;
+  margin: 0px 0px 25px 0px;
+  visibility: visible;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+  opacity: 1;
 }
 
 .textoCarregamento {
-
-    font-family: 'Trap', sans-serif;
-    font-size: 20px;
-
+  font-family: "Trap", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  visibility: visible;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+  opacity: 1;
 }
 
 @keyframes pound {
-    to {
-      transform: scale(1.2);
-      box-shadow: 1px 2px 3px 0 rgba(0, 0, 0, 0.65), 2px 6px 12px 0 rgba(0, 0, 0, 0.5), 3px 8px 15px 0 rgba(0, 0, 0, 0.45)
-    }
+  to {
+    transform: scale(1.2);
+    box-shadow: 1px 2px 3px 0 rgba(0, 0, 0, 0.65),
+      2px 6px 12px 0 rgba(0, 0, 0, 0.5), 3px 8px 15px 0 rgba(0, 0, 0, 0.45);
   }
-  
-  ul.loader {
+}
 
-    display: block;
-    width: auto;
-    margin: 50px 0px 0px 0px
-   
-  }
-  
-  .loader li {
-    list-style: none;
-    display: block;
-    float: left;
-    width: 1em;
-    height: 4em;
-    margin: 0 0.5em 0 0;
-    background: #635863;
-    background: -moz-linear-gradient(top, #635863 0%, #3d353b 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#635863),  color-stop(100%,#3d353b));
-    background: -webkit-linear-gradient(top, #635863 0%,#3d353b 100%);
-    background: -o-linear-gradient(top, #635863 0%,#3d353b 100%);
-    background: -ms-linear-gradient(top, #635863 0%,#3d353b 100%);
-    background: linear-gradient(to bottom, #635863 0%,#3d353b 100%);
-    box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.0), 1px 1px 1px 0 rgba(0, 0, 0, 0.0), 1px 1px 1px 0 rgba(0, 0, 0, 0.0);
-    animation: pound .7s ease-in-out infinite alternate;
-    animation-delay: 0.05s;
-    transform-origin: center;
-  }
-  
-  .loader li:nth-child(2) {
-    animation-delay: 0.20s;
-  }
-  
-  .loader li:nth-child(3) {
-    animation-delay: 0.35s;
-  }
-  
-  .loader li:nth-child(4) {
-    animation-delay: 0.50s;
-  }
-  
-  .loader li:nth-child(5) {
-    animation-delay: 0.65s;
+ul.loader {
+  display: block;
+  width: auto;
+  margin: 50px auto;
+  visibility: visible;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.loader li {
+  list-style: none;
+  display: block;
+  float: left;
+  width: 1em;
+  height: 4em;
+  margin: 0 0.5em 0 0;
+  background: #635863;
+  background: -moz-linear-gradient(top, #635863 0%, #3d353b 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, #635863),
+    color-stop(100%, #3d353b)
+  );
+  background: -webkit-linear-gradient(top, #635863 0%, #3d353b 100%);
+  background: -o-linear-gradient(top, #635863 0%, #3d353b 100%);
+  background: -ms-linear-gradient(top, #635863 0%, #3d353b 100%);
+  background: linear-gradient(to bottom, #635863 0%, #3d353b 100%);
+  box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0), 1px 1px 1px 0 rgba(0, 0, 0, 0),
+    1px 1px 1px 0 rgba(0, 0, 0, 0);
+  animation: pound 0.7s ease-in-out infinite alternate;
+  animation-delay: 0.05s;
+  transform-origin: center;
+}
+
+.loader li:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.loader li:nth-child(3) {
+  animation-delay: 0.35s;
+}
+
+.loader li:nth-child(4) {
+  animation-delay: 0.5s;
+}
+
+.loader li:nth-child(5) {
+  animation-delay: 0.65s;
+}
+
+.loader li:nth-child(6) {
+  animation-delay: 0.8s;
+}
+
+.LegendaCarregando {
+  margin: 75px 0px 0px 0px;
+  font-family: "Trap", sans-serif;
+  visibility: visible;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+  opacity: 1;
+}
+
+.LegendaCarregando::before {
+  content: "Carregando";
+  color: rgb(0, 0, 0);
+  animation: text 5s 0s infinite;
+}
+
+.LegendaCarregando.esconder {
+  opacity: 0;
+  transform: translateX(20px);
+}
+
+@keyframes text {
+  0% {
+    content: "Carregando";
   }
 
-    
-  .loader li:nth-child(6) {
-    animation-delay: 0.80s;
+  30% {
+    content: "Carregando.";
   }
 
-  .LegendaCarregando {
+  60% {
+    content: "Carregando..";
+  }
 
-    margin: 75px 0px 0px 0px;
-    font-family: 'Trap', sans-serif;
-   
-   }
-   
-   .LegendaCarregando::before {
-     content: "Carregando";
-     color: rgb(0, 0, 0);
-     animation: text 5s 0s infinite;
-   }
-   
-   
-   .LegendaCarregando.esconder {
-   
-     opacity: 0; 
-     transform: translateX(20px); 
-   
-   }
-   
-   @keyframes text {
-     0% {
-       content: "Carregando";
-     }
-   
-     30% {
-       content: "Carregando.";
-     }
-   
-     60% {
-       content: "Carregando..";
-     }
-   
-     100% {
-       content: "Carregando...";
-     }
-   }
+  100% {
+    content: "Carregando...";
+  }
+}
 
-   .LogotipoCarregamento {
+.LogotipoCarregamento {
+  position: absolute;
+  bottom: 20px;
+  right: 5%;
+  visibility: visible;
+  transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out;
+  opacity: 1;
+}
 
+@media (max-width: 1000px) {
+  .LogotipoCarregamento {
     position: absolute;
-    bottom: 20px;
-    right: 5%;
+    transform: translate(-0%, -50%);
+    right: auto;
+    left: auto;
+  }
+}
 
-   }
-  
-  
+.telaDeCarregamento {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 1s ease-in-out, visibility 1s linear;
+}
+
+.telaDeCarregamento--ocultar {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.conteudo-carregamento {
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.conteudo-carregamento--ocultar {
+  opacity: 0;
+}

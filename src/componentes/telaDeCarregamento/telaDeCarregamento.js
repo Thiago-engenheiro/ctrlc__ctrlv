@@ -1,69 +1,63 @@
-import './telaDeCarregamento.css'
-
+import "./telaDeCarregamento.css";
 import { useState, useEffect } from "react";
 
+export default function TelaDeCarregamento({ resultadoDoCarregamento }) {
+  const [paginaCarregada, setPaginaCarregada] = useState(false);
+  const [ocultarTela, setOcultarTela] = useState(false);
+  const [ocultarConteudo, setOcultarConteudo] = useState(false);
 
+  useEffect(() => {
+    const timer1 = setTimeout(() => setOcultarConteudo(true), 13000);
+    const timer2 = setTimeout(() => setPaginaCarregada(true), 15000);
+    const timer3 = setTimeout(() => setOcultarTela(true), 16000);
 
-export default function TelaDeCarregamento ({ resultadoDoCarregamento }) {
+    return () => {
+      clearTimeout(timer1);
+      clearTimeout(timer2);
+      clearTimeout(timer3);
+    };
+  }, []);
 
-    const [paginaCarregada, setPaginaCarregada] = useState(false);
-
-    useEffect(() => {
-
-        const timer = setTimeout(() => {
-            
-            setPaginaCarregada(true);
-        
-
-        }, 15000);
-
-        return () => clearTimeout(timer);
-
-    }, [paginaCarregada, resultadoDoCarregamento]);
-
+  useEffect(() => {
     if (paginaCarregada) {
-
-
-        resultadoDoCarregamento(paginaCarregada)
-        return null;
-     
+      resultadoDoCarregamento(true);
     }
+  }, [paginaCarregada, resultadoDoCarregamento]);
 
-    return (
+  return (
+    <section className={`telaDeCarregamento ${ocultarTela ? "telaDeCarregamento--ocultar" : ""}`}>
+      <div className={`conteudo-carregamento ${ocultarConteudo ? "conteudo-carregamento--ocultar" : ""}`}>
+        <h1 className="tituloCarregamento">Link Hub</h1>
 
-        <>
+        <p className="textoCarregamento">
+          Devido ao fundo animado em 3D, dispositivos com menor desempenho podem
+          apresentar lentidão.
+        </p>
+        <p className="textoCarregamento">
+          Enquanto não otimizo isso, peço desculpas pelo incômodo e agradeço a
+          compreensão
+        </p>
 
-                <section className='telaDeCarregamento'>
+        <ul className="loader">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
 
-                    <h1 className='tituloCarregamento'>Link Hub</h1>
+        <p className="LegendaCarregando"></p>
 
-                    <p className='textoCarregamento'>Devido ao fundo animado em 3D, dispositivos com menor desempenho podem apresentar lentidão.</p>
-                    <p className='textoCarregamento'>Enquanto não otimizo isso, peço desculpas pelo incômodo e agradeço a compreensão</p>
-
-                    <ul class="loader">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-
-                    <p class="LegendaCarregando"></p>
-
-                    <div className='LogotipoCarregamento'>
-
-                        <img class="Logo" src="/imagens/Eu/LOGO.png" alt="Logo" width="100"></img>
-
-                    </div>
-                    
-                </section>
-
-
-        
-        </>
-
-    )
-
-
+        <div className="LogotipoCarregamento">
+          <img
+            className="Logo"
+            src="/imagens/Eu/LOGO.png"
+            alt="Logo"
+            width="100"
+          />
+        </div>
+      </div>
+    </section>
+  );
 }
